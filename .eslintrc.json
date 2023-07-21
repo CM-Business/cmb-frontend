@@ -10,8 +10,32 @@
     "jsx-a11y"
   ],
   "rules": {
+    "quotes": [
+      0
+    ],
+    "semi":"off",
+    "space-before-function-paren":"off",
+    "jsx-quotes": [
+      0
+    ],
+
+    "comma-spacing": [
+      0
+    ],
+    "quote-props": [
+      0
+    ],
+    "no-trailing-spaces": [
+      0
+    ],
+    "no-multiple-empty-lines": [
+      0
+    ],
+    "dot-notation": [
+      0
+    ],
     "comma-dangle": [
-      "error",
+      0,
       {
         "arrays": "always-multiline",
         "objects": "always-multiline",
