@@ -10,7 +10,7 @@
     "test:watch": "yarn test --watch",
     "lint": "eslint src --ext ts,tsx",
     "lint:fix": "yarn lint --fix",
-    "type-check": "tsc --project  --pretty --noEmit",
+    "type-check": "tsc --project tsconfig.json --pretty --noEmit",
     "prepare": "husky install",
     "update-deps": "node ./src/config/update-deps.mjs"
   },
